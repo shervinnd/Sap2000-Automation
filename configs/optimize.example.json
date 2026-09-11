@@ -1,0 +1,31 @@
+{
+  "section_pool": [
+    "W12X26",
+    "W12X35",
+    "W14X38",
+    "W14X43",
+    "W16X50",
+    "W18X55"
+  ],
+  "member_groups": [
+    {
+      "name": "columns",
+      "frames": ["1", "2", "3", "4"]
+    },
+    {
+      "name": "beams",
+      "frames": ["10", "11", "12", "13"]
+    }
+  ],
+  "ratio_limit": 1.0,
+  "penalty": 1000000,
+  "ga": {
+    "population_size": 16,
+    "generations": 20,
+    "crossover_rate": 0.85,
+    "mutation_rate": 0.12,
+    "elite_count": 2,
+    "tournament_size": 3,
+    "random_state": 42
+  }
+}
