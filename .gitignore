@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Secrets / local config
+.env
+config.local.yaml
+
+# Outputs
+outputs/*
+!outputs/.gitkeep
+
+# Nested old scratch folder (kept locally, not published)
+/automation/
+
+# Temp extraction leftovers
+_cell_*.txt
+
+# SAP2000 model + analysis artifacts (large / generated)
+*.sdb
+*.sbk
+*.$2k
+*.K_0
+*.K_I
+*.K_J
+*.K_M
+*.LOG
+*.OUT
+*.msh
+*.Y
+*.Y$$
+*.Y_
+*.Y_1
+*.Y0?
+*.Y1?
+*.T8
+*.ico
+report.csv
+
+# Excel exports
+*.xlsx
+!~/docs/**
