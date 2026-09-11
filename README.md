@@ -1,5 +1,5 @@
 # SAP2000 Automation
-
+.
 Python tooling to drive **SAP2000** on Windows through the COM API.
 
 What it does:
